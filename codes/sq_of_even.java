@@ -12,6 +12,11 @@ public class sq_of_even {
             if(list.get(i) % 2 == 0)
                 res.add(list.get(i) * list.get(i));
         }
-        System.out.println(res);
+        // System.out.println(res);
+        Set<Integer> set = new HashSet<>();
+        for(int i=0; i<res.size(); i++){
+            set.add(res.get(i));
+        }
+        System.out.println(set);
     }
 }
