@@ -15,6 +15,7 @@ dist = [{"fruit_name":"apple", "sold_weight": 10},
 {"fruit_name":"banana", "sold_weight": 40},
 {"fruit_name":"orange", "sold_weight": 50}]
 result = {}
+
 for i in dist:
     fruit_name = i["fruit_name"]
     sold_weight = i["sold_weight"]
