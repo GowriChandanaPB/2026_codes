@@ -7,6 +7,7 @@ l2 = [9,2,5,1,4,6,8,7]
 res = []
 res.extend(l1)
 res.extend(l2)
+
 for i in range(len(res)):
     for j in range(1, len(res)-i):
         if res[j-1] > res[j]:
