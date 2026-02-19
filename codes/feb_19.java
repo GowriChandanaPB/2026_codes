@@ -4,6 +4,7 @@ list2 = [9,2,5,1,4,6,8,7]
 
 output = [1,2,3,3,4,4,5,5,6,6,7,7,8,8,9]
 */
+
 import java.util.*;
 public class feb_19 {
     public static void main(String[] args){
@@ -24,3 +25,4 @@ public class feb_19 {
         System.out.println(res);
     }
 }
+
